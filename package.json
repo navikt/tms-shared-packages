@@ -1,0 +1,16 @@
+{
+  "name": "tms-shared-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:react": "npm-to-esm --packageName react --packageVersion 18.2.0 --includeDependencies --entry cjs/react.production.min.js --outputFile ./packages/react/v18/index.js",
+    "build:react-dom": "npm-to-esm --packageName react-dom --packageVersion 18.2.0 --includeDependencies --importMap ./importmap/importmap.json --entry cjs/react-dom.production.min.js --outputFile ./packages/react-dom/v18/index.js"
+  },
+  "keywords": [],
+  "author": "navikt",
+  "license": "MIT",
+  "dependencies": {
+    "@navikt/npm-to-esm": "1.5.5"
+  }
+}
