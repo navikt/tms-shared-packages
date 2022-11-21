@@ -1,0 +1,12 @@
+{
+  "name": "react-18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm-to-esm --packageName react --packageVersion 18.2.0 --includeDependencies --entry cjs/react.production.min.js --outputFile ./index.js"
+  },
+  "keywords": [],
+  "author": "navikt",
+  "license": "MIT"
+}
