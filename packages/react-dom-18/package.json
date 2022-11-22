@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm-to-esm --packageName react-dom --packageVersion 18.2.0 --includeDependencies --importMap ../../importmaps/importmap.json --entry cjs/react-dom.production.min.js --outputFile ./index.js"
+    "build": "npm-to-esm --packageName react-dom --packageVersion 18.2.0 --includeDependencies --importMap ../../importmaps/importmap.json --entry cjs/react-dom.production.min.js --outputFile ../../shared/react-dom/v18/react-dom.production.min.js"
   },
   "keywords": [],
   "author": "navikt",
