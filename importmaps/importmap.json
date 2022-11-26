@@ -1,4 +1,4 @@
 {
-  "react": "https://cdn.nav.no/min-side/shared/react/v18/react.production.min.js",
-  "react-dom": "https://cdn.nav.no/min-side/shared/react-dom/v18/react-dom.production.min.js"
+  "react": "https://cdn.nav.no/min-side/shared/react/18.2.0/react.production.min.js",
+  "react-dom": "https://cdn.nav.no/min-side/shared/react-dom/18.2.0/react-dom.production.min.js"
 }
