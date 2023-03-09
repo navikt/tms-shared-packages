@@ -1,0 +1,12 @@
+{
+  "name": "amplitude-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm-to-esm --packageName amplitude-js --packageVersion 8.21.1 --includeDependencies --entry amplitude.js --outputFile ../../shared/amplitude/8.21.1/amplitude.js"
+  },
+  "keywords": [],
+  "author": "navikt",
+  "license": "MIT"
+}
