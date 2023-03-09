@@ -11,7 +11,8 @@
   "license": "MIT",
   "workspaces": [
     "packages/react-18",
-    "packages/react-dom-18"
+    "packages/react-dom-18",
+    "packages/react-router-dom-6"
   ],
   "devDependencies": {
     "@navikt/npm-to-esm": "1.5.5"
