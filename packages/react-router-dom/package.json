@@ -1,0 +1,12 @@
+{
+  "name": "react-dom-18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm-to-esm --packageName react-router-dom --packageVersion 6.2.2 --includeDependencies --importMap ../../importmaps/importmap.json --entry ./react-router-dom.production.min.js --outputFile ../../shared/react-router-dom/6.2.2/react-router-dom.production.min.js"
+  },
+  "keywords": [],
+  "author": "navikt",
+  "license": "MIT"
+}
